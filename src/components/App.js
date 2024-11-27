@@ -6,7 +6,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
 
   const handleAddTask = (newTask) => {
-    console.log("Adding task:", newTask);
+    console.log("Add task:", newTask);
     setTasks((prevTasks) => [
       ...prevTasks,
       { id: Date.now(), text: newTask, completed: false },
