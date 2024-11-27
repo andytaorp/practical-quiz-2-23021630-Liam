@@ -37,7 +37,7 @@ function App() {
         onDeleteTask={handleDeleteTask}
       />
     </div>
-  );
+  );  
 }
 
 export default App;
